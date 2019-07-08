@@ -1,0 +1,8 @@
+int a = 50;
+ int *ptr = &a;
+ int *q = ptr;
+ (*q)++;
+ cout << a  << endl;
+
+
+ ==51
